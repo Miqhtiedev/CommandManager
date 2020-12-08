@@ -7,6 +7,20 @@ CommandManager gives you the ability to register commands without even touching 
 ## How it does it 
 CommandManager makes use of reflection and adds the SubCommand to the server's command map
 
+## Installation
+First add jitpack to the repo list
+```gradle
+repositories {
+  maven { url 'https://jitpack.io' }
+}
+```
+
+Second add CommandManager to the dependencies
+```gradle
+dependencies {
+  implementation 'com.github.Miqhtiedev:CommandManager:v1.0.0'
+}
+ ```
 
 ## How To Use
 
